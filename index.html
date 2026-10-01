@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studenthub</title>
+    <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Studenthub</h2>
+        <a href="#">Home</a>
+        <a href="#">Jobs</a>
+        <a href="#">Internships</a>
+        <a href="#">Courses</a>
+        <a href="#">Tools</a>
+        <a href="#">Login</a>
+    </nav>
+    <section class="hero">
+        <h1> Everything Students Need in One Place</h1>
+        <p>Find jobs, internships, courses, and usefull student tools.</p>
+        <input type="text" placeholder="Search for jobs, internships, courses....">
+        <button onclick="searchStudenthub()"><Search></button>
+    </section>
+    <div id="searchResults"></div>
+    <section class="categories">
+        <h2> Explore Studenthub</h2>
+        <div class="category-container">
+            <div class="category-card">
+                <h3>Jobs</h3>
+                <p>Find Jobs for Freshers and Students.</p>
+            </div>
+            <div class="category-card">
+                <h3>Courses</h3>
+                <p>Learn new Skills and Technologies.</p>
+            </div>
+            <div class="category-card">
+                <h3>Internships</h3>
+                <p>Explore Internship opportunities.</p>
+            </div>
+            <div class="category-card">
+                <h3>Resume</h3>
+                <p>Build a better Resume and Prepare for Jobs.</p>
+            </div>
+            <div class="category-card">
+                <h3>Tools</h3>
+                <p>Use usefullstudent calculators and tools.</p>
+            </div>
+            <div class="category-card">
+                <h3>Events</h3>
+                <p>Discover Hackthons, Workshops, Events.</p>
+            </div>
+        </div>   
+    </section>
+    <section class="Jobs">
+        <h2>Featured Jobs</h2>
+        <div class="job-container">
+            <div class="job-card">
+                <h3>Python Developer</h3>
+                <p>Tech Solutions</p>
+                <p>Hyderabad</p>
+                <p>₹4-6 LPA</p>
+                <button onclick="alert('Python Developer - Hyderabad - ₹4 to 6 LPA')">View Details</button>
+            </div>
+            <div class="job-card">
+                <h3>Data Analyst</h3>
+                <p>Data Corp</p>
+                <p>Bengaluru</p>
+                <p>₹5-7 LPA</p>
+                <button onclick="alert('Data Analyst - Bengaluru - ₹5 to 7 LPA ')">View Details></button>
+            </div>
+            <div class="job-card">
+                <h3>Web Developer</h3>
+                <p>Digital Works</p>
+                <p>Remote</p>
+                <p>₹3-5 LPA</p>
+                <button onclick="alert('Web Developer - Remote - ₹3 to 5 LPA ')">View Details></button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
